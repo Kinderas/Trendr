@@ -1,24 +1,32 @@
-# CodeForge
+# Trendr.
 
-Smart Contract Copilot for Blockchain Development.
+AI-Powered Meme Coin Trading Bot.
+
+![Trendr-Home](./client/public/trendr-website-design/)
 
 ## ⚠️ Problem to Solve.
 
-Developing smart contracts and decentralized applications (dApps) can be challenging, especially for new developers or those working with unfamiliar codebases. Writing secure, efficient code often requires extensive knowledge of blockchain-specific languages and patterns. Additionally, understanding existing contracts can be time-consuming and difficult.
+The meme coin market moves at an extremely fast pace, with trends emerging and fading within hours. Retail traders often miss out on high-profit opportunities because they lack real-time data, sentiment analysis and automated execution.
 
-There’s a need for a platform that helps developers by generating boilerplate code, offering real-time code suggestions and simplifying the understanding of existing smart contracts.
+There’s a need for a tool that allows users to capitalize on the latest crypto trends by automating trades based on influencer tweets, engagement metrics and AI-driven sentiment analysis.
 
 ## ✅ Possible Solution.
 
-**CodeForge** is a smart contract assistant powered by large language models (LLMs) like GPT-3. It aims to simplify the development of smart contracts by:
+**Trendr** is an AI-powered meme coin trading bot that fetches and analyzes influencer tweets in real time, making automated trade decisions based on sentiment and engagement metrics. It helps users stay ahead of viral trends with:
 
-1. **Real-time Autocomplete**: Offering code suggestions and completions while developers write their smart contracts, similar to how GitHub Copilot works for general programming.
-   
-2. **Boilerplate Code Generation**: Automatically generating boilerplate code for common smart contract patterns (e.g., token contracts, DAO governance contracts).
-   
-3. **Code Understanding Assistance**: Providing human-readable summaries and explanations for existing smart contracts, helping developers understand how they work and whether they are secure.
+1. **Real-time Tweet Scraping**: Monitors top crypto influencers and meme coin discussions to detect potential trends.
 
-4. **Security Best Practices**: Suggesting code improvements that follow best practices in smart contract development to ensure security and efficiency.
+2. **AI-Based Sentiment Analysis**: Uses machine learning to evaluate tweets and gauge market sentiment.
+
+3. **Automated Trading Execution**: Executes buy/sell orders based on sentiment thresholds and engagement metrics.
+
+4. **Engagement Metrics Analysis**: Considers likes, retweets, and comments to predict market movements.
+
+5. **Risk Management Controls**: Customizable stop-loss and take-profit settings to minimize risk.
+
+6. **Solana Blockchain Integration**: Executes trades on Solana-based decentralized exchanges (DEXs) for fast and low-cost transactions.
+
+7. **User Dashboard**: Provides an intuitive UI for tracking trades, profits, and overall market trends.
 
 ## ⚙️ Architecture.
 
@@ -30,10 +38,11 @@ There’s a need for a platform that helps developers by generating boilerplate 
 - **ReactJS**: Frontend library for building interactive user interfaces.
 - **Node.js**: Backend runtime environment for server-side JavaScript.
 - **Express.js**: Web framework for building RESTful APIs on Node.js.
-- **Solidity**: Smart contract language to build Ethereum-based contracts.
-- **OpenAI GPT-3**: Large language model for code generation and understanding.
-- **Ethereum**: Blockchain platform for deploying and interacting with smart contracts.
-- **IPFS**: Decentralized storage for contract metadata, descriptions and documentation.
+- **@Solana/Web3.js**: For blockchain interactions and trading execution.
+- **Rust**: Smart contract development for Solana-based execution.
+- **OpenAI GPT**: Large language model for sentiment analysis.
+- **Twitter API**: Fetches influencer tweets for trend detection.
+- **IPFS/MongoDB/PostgreSQL**: Database for storing trade history and market insights.
 
 ## 📂 Folder Structure.
 
@@ -47,11 +56,11 @@ There’s a need for a platform that helps developers by generating boilerplate 
 
 ## 🔃 Steps to be followed in order to make valid contributions to this repo.
 
-**1.** Fork the [CodeForge](https://github.com/mrinnnmoy/CodeForge) repo by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
+**1.** Fork the [Trendr](https://github.com/mrinnnmoy/Trendr) repo by clicking on the fork button on the top of the page. This will create a copy of this repository in your account.
 
 **2.** Clone the forked repository
 
-        git clone "https://github.com/<your-github-username>/CodeForge"
+        git clone "https://github.com/<your-github-username>/Trendr"
 
 * Download and install Node JS v16.16.0
 * Download and install Git.
