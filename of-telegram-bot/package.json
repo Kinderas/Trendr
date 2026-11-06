@@ -1,0 +1,22 @@
+{
+  "name": "of-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram auto-poster for Project OF — posts model media albums on a schedule",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "post-once": "node src/index.js --once",
+    "dry-run": "DRY_RUN=1 node src/index.js --once",
+    "test:picker": "node src/test-picker.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.0"
+  }
+}
